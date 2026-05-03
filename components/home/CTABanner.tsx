@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { ArrowRight, MessageCircle } from 'lucide-react';
 import { AnimateIn } from '@/components/ui/AnimateIn';
 
-const WHATSAPP_NUMBER = '2348012345678';
+const WHATSAPP_NUMBER = '2347039181821';
 const WHATSAPP_MSG = encodeURIComponent("Hello ODC Ventures, I'm planning a building/renovation project and would like to discuss my requirements.");
 
 export function CTABanner() {

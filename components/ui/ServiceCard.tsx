@@ -5,7 +5,7 @@ const iconMap: Record<string, React.ElementType> = {
   Zap, Building2, RefreshCw, LayoutGrid, Lightbulb, Power, Sun, Briefcase, Shield, Package,
 };
 
-const WHATSAPP_NUMBER = '2348012345678';
+const WHATSAPP_NUMBER = '2347039181821';
 
 function getWhatsAppLink(serviceName: string) {
   const msg = encodeURIComponent(

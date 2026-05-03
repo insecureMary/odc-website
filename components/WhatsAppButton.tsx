@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 
-const WHATSAPP_NUMBER = '2348012345678';
+const WHATSAPP_NUMBER = '2347039181821';
 const WHATSAPP_MSG = encodeURIComponent(
   "Hello ODC Ventures, I'd like to make an enquiry about your products and services."
 );
@@ -21,9 +21,8 @@ export function WhatsAppButton() {
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Chat with us on WhatsApp"
-      className={`fixed bottom-6 right-6 z-50 flex items-center gap-2.5 bg-[#25D366] text-white rounded-full shadow-lg hover:shadow-xl hover:bg-[#1ebe5a] transition-all duration-300 group animate-pulse-ring ${
-        visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
-      }`}
+      className={`fixed bottom-6 right-6 z-50 flex items-center gap-2.5 bg-[#25D366] text-white rounded-full shadow-lg hover:shadow-xl hover:bg-[#1ebe5a] transition-all duration-300 group animate-pulse-ring ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
+        }`}
       style={{ transition: 'opacity 0.4s, transform 0.4s, background 0.2s, box-shadow 0.2s' }}
     >
       {/* WhatsApp SVG icon */}
